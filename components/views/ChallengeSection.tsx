@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ChallengeSection() {
   return (
-    <section className="container px-5 mx-auto min-h-screen w-full h-full p-20 font-[500]">
+    <section className="container px-5 mx-auto min-h-screen w-full h-full pt-20 pb-40 font-[500]">
       <h1 className="font-plus-jakarta-sans text-white text-5xl text-center lg:text-left">
         The <i className="pr-2">Challenge</i> with{" "}
         <span className="text-primary">Bitcoin</span>
