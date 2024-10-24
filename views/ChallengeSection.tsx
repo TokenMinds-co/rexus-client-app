@@ -3,13 +3,13 @@ import React from "react";
 
 export default function ChallengeSection() {
   return (
-    <section className="container mx-auto min-h-screen w-full h-full py-24 px-10 md:px-5 font-[500]">
+    <section className="container px-5 mx-auto min-h-screen w-full h-full pt-32 pb-24 font-[500]">
       <h1 className="font-plus-jakarta-sans text-white text-5xl">
         The <em>Challenge</em> with{" "}
         <span className="text-primary">Bitcoin</span>
       </h1>
 
-      <div className="mt-20 flex flex-col md:flex-row justify-between gap-10 md:gap=5">
+      <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
         <ChallengeCard
           title="Lack of Diversification"
           description="Bitcoin is lack of diversification"
