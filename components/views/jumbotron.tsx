@@ -1,4 +1,4 @@
-import React from "react";
+mport React from "react";
 import { Button } from "../ui/button";
 
 const Jumbotron = () => {
@@ -22,5 +22,3 @@ const Jumbotron = () => {
     </div>
   );
 };
-
-export default Jumbotron;

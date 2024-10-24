@@ -5,6 +5,7 @@ import ChallengeSection from "@/components/views/ChallengeSection";
 import DiversifySection from "@/components/views/DiversifySection";
 import CommunitySection from "@/components/views/CommunitySection";
 import BgOverlayBottom from "@/components/BgOverlayBottom";
+import Baal from "@/components/views/baal";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <BgOverlayBottom />
       </div>
       <DiversifySection />
+      <Baal />
       <Footer />
     </main>
   );
