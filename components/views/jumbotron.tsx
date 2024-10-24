@@ -11,7 +11,7 @@ const Jumbotron = () => {
         <h5 className="text-3xl md:text-4xl lg:text-5xl text-white/70 font-medium font-plus-jakarta-sans">
           Bringing Asset Backed
         </h5>
-        <h5 className="text-3xl md:text-4xl lg:text-5xl font-medium font-plus-jakarta-sans bg-gradient-to-b from-white to-black/70 text-transparent bg-clip-text">
+        <h5 className="text-3xl md:text-4xl lg:text-5xl font-medium font-plus-jakarta-sans bg-gradient-to-b from-white via-gray-200 to-black/50 text-transparent bg-clip-text">
           RWA’s to Bitcoin
         </h5>
       </div>

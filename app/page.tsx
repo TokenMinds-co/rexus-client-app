@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex flex-col space-y-5 w-full h-full min-h-screen items-start justify-start bg-darkbg">
       <Navbar />
-      <div className="flex w-full h-full min-h-screen bg-[-900px] md:bg-[-700px] lg:bg-[-400px] bg-cover pt-32 bg-hero-btc rounded-b-[80px]">
+      <div className="bg-hero-btc w-full bg-cover bg-center rounded-b-[100px] bg-center pt-24">
         <Jumbotron />
       </div>
       <ChallengeSection />

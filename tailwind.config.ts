@@ -67,7 +67,7 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       backgroundImage: {
-        "hero-btc": "url('/images/btc-jumbo.jpg')",
+        "hero-btc": "url('/backgrounds/btc-jumbo.jpg')",
       },
     },
   },
