@@ -1,6 +1,9 @@
+import Navbar from "@/components/layouts/navbar";
+
 export default function Home() {
   return (
-    <main className="flex flex-col space-y-5 w-full h-full min-h-screen items-center justify-center bg-darkbg">
+    <main className="flex flex-col space-y-5 w-full h-full min-h-screen container mx-auto items-start justify-start bg-darkbg">
+      <Navbar />
       <p className="text-5xl font-plus-jakarta-sans text-primary">
         HELLO REXUS
       </p>

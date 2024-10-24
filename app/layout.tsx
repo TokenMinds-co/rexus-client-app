@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${plusJakartaSans.variable} ${orbitron.variable} ${inter.variable} antialiased`}
+        className={`${plusJakartaSans.variable} ${orbitron.variable} ${inter.variable} antialiased bg-darkbg`}
       >
         {children}
       </body>
