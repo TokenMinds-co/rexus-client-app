@@ -1,11 +1,11 @@
 import Footer from "@/components/layouts/footer";
 import Navbar from "@/components/layouts/navbar";
-import Jumbotron from "@/components/views/jumbotron";
 import ChallengeSection from "@/components/views/ChallengeSection";
 import DiversifySection from "@/components/views/DiversifySection";
 import CommunitySection from "@/components/views/CommunitySection";
 import BgOverlayBottom from "@/components/BgOverlayBottom";
 import Baal from "@/components/views/baal";
+import Jumbotron from "@/components/views/jumbotron";
 
 export default function Home() {
   return (

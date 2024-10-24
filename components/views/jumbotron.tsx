@@ -1,7 +1,7 @@
-mport React from "react";
+import React from "react";
 import { Button } from "../ui/button";
 
-const Jumbotron = () => {
+export default function Jumbotron() {
   return (
     <div className="flex flex-col space-y-6 lg:space-y-10 w-full container mx-auto h-full min-h-screen items-start justify-start pt-32 p-5">
       <h3 className="text-5xl md:text-7xl lg:text-8xl font-orbitron tracking-widest font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text">
@@ -21,4 +21,4 @@ const Jumbotron = () => {
       </Button>
     </div>
   );
-};
+}
