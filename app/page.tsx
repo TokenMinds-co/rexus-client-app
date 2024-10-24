@@ -1,8 +1,8 @@
 import Footer from "@/components/layouts/footer";
 import Navbar from "@/components/layouts/navbar";
 import Jumbotron from "@/components/views/jumbotron";
-import ChallengeSection from "@/views/ChallengeSection";
-import DiversifySection from "@/views/DiversifySection";
+import ChallengeSection from "@/components/views/ChallengeSection";
+import DiversifySection from "@/components/views/DiversifySection";
 
 export default function Home() {
   return (
