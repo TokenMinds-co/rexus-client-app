@@ -2,6 +2,7 @@ import Footer from "@/components/layouts/footer";
 import Navbar from "@/components/layouts/navbar";
 import Jumbotron from "@/components/views/jumbotron";
 import ChallengeSection from "@/views/ChallengeSection";
+import DiversifySection from "@/views/DiversifySection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Jumbotron />
       </div>
       <ChallengeSection />
+      <DiversifySection />
       <Footer />
     </main>
   );

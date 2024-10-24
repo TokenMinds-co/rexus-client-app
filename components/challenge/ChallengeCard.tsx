@@ -13,11 +13,11 @@ export default function ChallengeCard({
   imageUrl,
 }: ChallengeCardProps) {
   return (
-    <div className="flex flex-col rounded-xl overflow-hidden bg-[#18181B]/50">
+    <div className="flex flex-col rounded-xl overflow-hidden border-gray-600/25 border-[1px] bg-[#18181B]/50">
       <Image
         alt="bitcoin-challenge-1"
-        height={500}
-        width={500}
+        height={1250}
+        width={1250}
         src={imageUrl}
         className="object-cover w-full h-full"
       />
