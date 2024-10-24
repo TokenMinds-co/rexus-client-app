@@ -68,6 +68,7 @@ const config: Config = {
       },
       backgroundImage: {
         "hero-btc": "url('/backgrounds/btc-jumbo.jpg')",
+        gold: "url('/backgrounds/gold.png')",
       },
     },
   },
