@@ -42,7 +42,10 @@ export default function RoadmapSection() {
   ];
 
   return (
-    <section className="container relative mx-auto w-full h-full min-h-screen py-40 overflow-hidden px-10">
+    <section
+      className="container relative mx-auto w-full h-full min-h-screen py-40 overflow-hidden px-10"
+      id="roadmap"
+    >
       <h1 className="text-white text-6xl text-center">
         <i className="text-primary pr-1">REXUS</i> Roadmap
       </h1>
@@ -87,7 +90,9 @@ export default function RoadmapSection() {
               className={`absolute rounded-lg bg-gray-500/30 text-white p-8 bottom-[-75px] z-20 w-[300px] sm:w-[500px] left-[50px] sm:left-[50px]
               }`}
             >
-              <div className="text-xl sm:text-2xl text-primary mb-2">{roadmap.title}</div>
+              <div className="text-xl sm:text-2xl text-primary mb-2">
+                {roadmap.title}
+              </div>
               {roadmap.content}
             </div>
           </div>

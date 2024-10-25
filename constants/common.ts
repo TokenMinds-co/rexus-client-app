@@ -4,12 +4,12 @@ export const navigations = [
     href: "/#home",
   },
   {
-    name: "BAAL Coin",
-    href: "/#baal",
-  },
-  {
     name: "Why Us",
     href: "/#whyus",
+  },
+  {
+    name: "BAAL Coin",
+    href: "/#baal",
   },
   {
     name: "Roadmap",
