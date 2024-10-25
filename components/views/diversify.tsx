@@ -1,8 +1,8 @@
-import DiversifyItem from "@/components/diversify/Diversifyitem";
+import DiversifyItem from "@/components/diversify/diversify-item";
 import Image from "next/image";
 import React from "react";
 
-export default function DiversifySection() {
+export default function Diversify() {
   return (
     <section className="container px-5 mx-auto min-h-screen w-full h-full pt-40 pb-16 font-[500]">
       <div className="relative text-white font-plus-jakarta-sans">

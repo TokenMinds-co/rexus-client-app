@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CommunitySection() {
+export default function Community() {
   return (
     <div className="container mx-auto h-full min-h-screen flex">
       <h1 className="text-white w-full font-plus-jakarta-sans text-center z-10 text-2xl px-10 lg:px-0 md:text-3xl lg:text-4xl xl:text-5xl xl:leading-[60px] self-end pb-36">

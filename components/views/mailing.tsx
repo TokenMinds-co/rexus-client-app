@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 
-export default function MailingSection() {
+export default function Mailing() {
   return (
     <section className="2xl:container 2xl:mx-auto relative w-full pt-16 pb-32" id="contact">
       <div className="py-12 px-5 sm:px-16 bg-mailing bg-cover bg-center font-plus-jakarta-sans rounded-3xl">

@@ -1,7 +1,7 @@
 import React from "react";
-import BgOverlayBottom from "../BgOverlayBottom";
+import BgOverlayBottom from "../bottom-overlay";
 
-export default function RoadmapSection() {
+export default function Roadmap() {
   const roadmapStep = [
     {
       step: 1,

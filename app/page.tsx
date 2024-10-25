@@ -1,32 +1,32 @@
 import Footer from "@/components/layouts/footer";
 import Navbar from "@/components/layouts/navbar";
-import ChallengeSection from "@/components/views/ChallengeSection";
-import DiversifySection from "@/components/views/DiversifySection";
-import CommunitySection from "@/components/views/CommunitySection";
-import BgOverlayBottom from "@/components/BgOverlayBottom";
+import BgOverlayBottom from "@/components/bottom-overlay";
 import Baal from "@/components/views/baal";
 import Jumbotron from "@/components/views/jumbotron";
 import Team from "@/components/views/team";
-import EdgeSection from "@/components/views/EdgeSection";
-import MailingSection from "@/components/views/MailingSection";
-import RoadmapSection from "@/components/views/RoadmapSection";
+import Challenge from "@/components/views/challenge";
+import Community from "@/components/views/community";
+import Diversify from "@/components/views/diversify";
+import Edge from "@/components/views/edge";
+import Roadmap from "@/components/views/roadmap";
+import Mailing from "@/components/views/mailing";
 
 export default function Home() {
   return (
     <main className="flex flex-col space-y-5 w-full h-full min-h-screen items-start justify-start bg-darkbg">
       <Navbar />
       <Jumbotron />
-      <ChallengeSection />
+      <Challenge />
       <div className="bg-community relative w-full bg-cover bg-center mb-20">
-        <CommunitySection />
+        <Community />
         <BgOverlayBottom />
       </div>
-      <DiversifySection />
-      <EdgeSection />
+      <Diversify />
+      <Edge />
       <Baal />
-      <RoadmapSection />
+      <Roadmap />
       <Team />
-      <MailingSection />
+      <Mailing />
       <Footer />
     </main>
   );

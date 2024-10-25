@@ -1,7 +1,7 @@
-import ChallengeCard from "@/components/challenge/ChallengeCard";
+import ChallengeCard from "@/components/challenge/challenge-card";
 import React from "react";
 
-export default function ChallengeSection() {
+export default function Challenge() {
   return (
     <section className="container px-5 mx-auto min-h-screen w-full h-full pt-20 pb-40 font-[500]">
       <h1 className="font-plus-jakarta-sans text-white text-5xl text-center lg:text-left">
