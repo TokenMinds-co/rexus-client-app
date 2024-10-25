@@ -44,7 +44,7 @@ export default function RoadmapSection() {
   return (
     <section className="container relative mx-auto w-full h-full min-h-screen py-40 overflow-hidden px-10">
       <h1 className="text-white text-6xl text-center">
-        <i className="text-primary pr-1">REXUZ</i> Roadmap
+        <i className="text-primary pr-1">REXUS</i> Roadmap
       </h1>
 
       {/* BIG SCREEN ROADMAP */}
