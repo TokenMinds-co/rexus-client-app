@@ -68,8 +68,10 @@ const config: Config = {
       },
       backgroundImage: {
         "hero-btc": "url('/backgrounds/btc-jumbo.jpg')",
-        "community": "url('/backgrounds/community.png')",
+        community: "url('/backgrounds/community.png')",
         gold: "url('/backgrounds/gold.png')",
+        wave: "url('/backgrounds/wave.png')",
+        line: "url('/backgrounds/line-wavy.png')",
       },
     },
   },

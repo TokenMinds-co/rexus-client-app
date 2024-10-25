@@ -9,11 +9,11 @@ const Footer = () => {
           href="/"
           className="text-3xl font-orbitron font-semibold uppercase bg-gradient-to-b from-black via-black to-primary text-transparent bg-clip-text"
         >
-          Rexus
+          Rexuz
         </Link>
 
         <p className="text-base font-plus-jakarta-sans tracking-wider text-center">
-          &copy; 2024 Rexus. All rights reserved.
+          &copy; 2024 Rexuz. All rights reserved.
         </p>
       </div>
     </div>

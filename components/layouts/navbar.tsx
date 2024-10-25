@@ -46,12 +46,12 @@ const Navbar = () => {
   return (
     <div className="flex w-full h-full items-center justify-center">
       <div className="fixed container mx-auto top-0 flex py-5 px-5 w-full h-fit z-20">
-        <div className="flex px-10 py-5 w-full h-full items-center justify-between bg-white/[8%] border border-white/40 rounded-3xl">
+        <div className="flex px-10 py-5 w-full h-full items-center justify-between bg-white/[8%] backdrop-blur-md border border-white/40 rounded-3xl">
           <Link
             href="/"
             className="text-3xl font-orbitron font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text"
           >
-            Rexus
+            Rexuz
           </Link>
 
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 size={36}
               />
             </SheetTrigger>
-            <SheetTitle className="hidden">Rexus</SheetTitle>
+            <SheetTitle className="hidden">Rexuz</SheetTitle>
             <SheetContent
               side="right"
               className="flex flex-col items-start space-y-4 bg-darkbg text-white"
@@ -72,7 +72,7 @@ const Navbar = () => {
                   href="/"
                   className="text-3xl font-orbitron font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text"
                 >
-                  Rexus
+                  Rexuz
                 </Link>
 
                 {navigations.map((item, index) => (
