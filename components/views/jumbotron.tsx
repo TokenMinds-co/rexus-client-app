@@ -3,9 +3,9 @@ import { Button } from "../ui/button";
 
 export default function Jumbotron() {
   return (
-    <div
+    <section
       className="bg-hero-btc w-full bg-cover rounded-b-[100px] bg-center pt-24"
-      id="#home"
+      id="home"
     >
       <div className="flex flex-col space-y-6 lg:space-y-10 w-full container mx-auto h-full min-h-screen items-start justify-start pt-32 p-5">
         <h3 className="text-5xl md:text-7xl lg:text-8xl font-orbitron tracking-widest font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text">
@@ -24,6 +24,6 @@ export default function Jumbotron() {
           Learn More
         </Button>
       </div>
-    </div>
+    </section>
   );
 }
