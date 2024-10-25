@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function MailingSection() {
   return (
-    <section className="container relative mx-auto pt-16 pb-32" id="contact">
+    <section className="2xl:container 2xl:mx-auto relative w-full pt-16 pb-32" id="contact">
       <div className="py-12 px-5 sm:px-16 bg-mailing bg-cover bg-center font-plus-jakarta-sans rounded-3xl">
         <div className="space-y-8 z-10 w-full lg:w-3/4 xl:w-2/3 2xl:w-1/3 pt-48 pb-12">
           <h1 className="text-white text-5xl lg:text-6xl font-medium text-center xl:text-left ">
