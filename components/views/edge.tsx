@@ -4,7 +4,10 @@ import EdgeItem from "../edge/edge-item";
 
 export default function Edge() {
   return (
-    <section className="container mx-auto w-full h-full grid grid-cols-1 lg:grid-cols-2 justify-between g pt-24 pb-44 gap-10 px-5">
+    <section
+      className="container mx-auto w-full h-full grid grid-cols-1 lg:grid-cols-2 justify-between g pt-24 pb-44 gap-10 px-5"
+      id="whyus"
+    >
       <div className="flex flex-col justify-between items-center lg:items-start">
         <h1 className="text-white text-center lg:text-left font-plus-jakarta-sans text-5xl lg:text-6xl leading-[60px] lg:leading-[75px] w-4/5">
           The Edge That Powers{" "}
