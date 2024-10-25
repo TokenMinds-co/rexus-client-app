@@ -3,9 +3,9 @@ import { Button } from "../ui/button";
 
 const Baal = () => {
   return (
-    <div
+    <section
       className="flex w-full h-full min-h-screen bg-gold rounded-[80px] bg-top bg-cover"
-      id="#baal"
+      id="baal"
     >
       <div className="flex flex-col space-y-5 lg:space-y-10 w-full container mx-auto h-full min-h-screen items-center justify-start py-20 p-5">
         <p className="font-plus-jakarta-sans text-2xl text-white font-semibold text-center">
@@ -54,7 +54,7 @@ const Baal = () => {
           Learn More
         </Button>
       </div>
-    </div>
+    </section>
   );
 };
 

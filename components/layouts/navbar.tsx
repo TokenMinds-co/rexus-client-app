@@ -46,10 +46,11 @@ const Navbar = () => {
   return (
     <div className="flex w-full h-full items-center justify-center">
       <div className="fixed container mx-auto top-0 flex py-5 px-5 w-full h-fit z-20">
-        <div className="flex px-10 py-5 w-full h-full items-center justify-between bg-white/[8%] backdrop-blur-md border border-white/40 rounded-3xl">
+        <div className="flex px-5 py-5 w-full h-full items-center justify-between bg-white/[8%] backdrop-blur-md border border-white/40 rounded-3xl">
           <Link
             href="/"
-            className="text-3xl font-orbitron font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text"
+            passHref
+            className="text-xl lg:text-3xl font-orbitron font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text"
           >
             Rexuz
           </Link>
@@ -59,7 +60,7 @@ const Navbar = () => {
               <AlignJustify
                 color="white"
                 className="block lg:hidden"
-                size={36}
+                size={30}
               />
             </SheetTrigger>
             <SheetTitle className="hidden">Rexuz</SheetTitle>
@@ -70,6 +71,7 @@ const Navbar = () => {
               <nav className="flex flex-col space-y-4 mt-4">
                 <Link
                   href="/"
+                  passHref
                   className="text-3xl font-orbitron font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text"
                 >
                   Rexuz
@@ -81,6 +83,7 @@ const Navbar = () => {
                     href={item.href}
                     className="text-lg font-plus-jakarta-sans hover:underline text-white/70"
                     onClick={() => setIsOpen(false)}
+                    passHref
                   >
                     {item.name}
                   </Link>
@@ -94,6 +97,7 @@ const Navbar = () => {
               <Link
                 href={item.href}
                 key={idx}
+                passHref
                 className={cn(
                   "text-lg font-plus-jakarta-sans transition-colors",
                   isActive(item.href)
