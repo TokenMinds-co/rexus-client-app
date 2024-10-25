@@ -1,12 +1,14 @@
 import React from "react";
 import BgOverlayBottom from "../bottom-overlay";
+import RoadmapCard from "../roadmap/roadmap-card";
+import RoadmapCardSmall from "../roadmap/roadmap-card-small";
 
 export default function Roadmap() {
   const roadmapStep = [
     {
       step: 1,
-      time: "Q1 2024",
-      title: "Founding of Bichon",
+      iconUrl: "/icons/roadmap-item-1.svg",
+      title: "Phase 1",
       content: (
         <ul className="list-disc ml-5 text-white/75 font-light text-sm sm:text-base">
           <li>Launch RWA platform on Bitcoin</li>
@@ -18,8 +20,8 @@ export default function Roadmap() {
     },
     {
       step: 2,
-      time: "Q2 2024",
-      title: "Presale Start",
+      iconUrl: "/icons/roadmap-item-2.svg",
+      title: "Phase 2",
       content: (
         <ul className="list-disc ml-5 text-white/75 font-light text-sm sm:text-base">
           <li>Launch more asset-backed tokens</li>
@@ -30,8 +32,8 @@ export default function Roadmap() {
     },
     {
       step: 3,
-      time: "Q3 2024",
-      title: "Partnership Start",
+      iconUrl: "/icons/roadmap-item-3.svg",
+      title: "Phase 3",
       content: (
         <ul className="list-disc ml-5 text-white/75 font-light text-sm sm:text-base">
           <li>Expand to additional Layer 1 blockchains</li>
@@ -51,7 +53,7 @@ export default function Roadmap() {
       </h1>
 
       {/* BIG SCREEN ROADMAP */}
-      <div className="hidden lg:flex font-plus-jakarta-sans  flex-col justify-center items-center mt-60 gap-[225px]">
+      <div className="hidden lg:flex font-plus-jakarta-sans  flex-col justify-center items-center mt-64 gap-[225px]">
         {roadmapStep.map((roadmap, index) => (
           <div
             key={index}
@@ -62,15 +64,7 @@ export default function Roadmap() {
             }}
           >
             <div className="absolute bg-primary w-[4px] h-[250px] left-[6px]" />
-
-            <div
-              className={`absolute rounded-lg bg-gray-500/30 text-white p-8 bottom-[-75px] z-20 lg:w-[400px] xl:w-[500px] ${
-                roadmap.step % 2 === 0 ? "left-[100px]" : "right-[100px]"
-              }`}
-            >
-              <div className="text-2xl text-primary mb-2">{roadmap.title}</div>
-              {roadmap.content}
-            </div>
+            <RoadmapCard {...roadmap} />
           </div>
         ))}
       </div>
@@ -88,15 +82,7 @@ export default function Roadmap() {
           >
             <div className="absolute bg-primary w-[4px] h-[250px] left-[6px]" />
 
-            <div
-              className={`absolute rounded-lg bg-gray-500/30 text-white p-8 bottom-[-75px] z-20 w-[300px] sm:w-[500px] left-[50px] sm:left-[50px]
-              }`}
-            >
-              <div className="text-xl sm:text-2xl text-primary mb-2">
-                {roadmap.title}
-              </div>
-              {roadmap.content}
-            </div>
+            <RoadmapCardSmall {...roadmap} />
           </div>
         ))}
       </div>
