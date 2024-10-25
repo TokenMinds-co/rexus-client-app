@@ -28,12 +28,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Rexuz | RWA's on Bitcoin",
-  description: "Rexuz is a platform that brings Real World Assets to Bitcoin.",
+  description:
+    "Rexuz is a platform that brings Real World Assets to Bitcoin, making it easy for businesses to turn physical assets into digital tokens. With secure management, automated processes, and Bitcoin’s transparent infrastructure, Rexuz helps partners issue, track, and manage their assets effortlessly.",
   authors: {
     name: "TokenMinds",
     url: "https://tokenminds.co",
   },
   creator: "TokenMinds",
+  publisher: "TokenMinds",
   keywords: [
     "Rexuz",
     "RWA",
@@ -66,12 +68,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rexuz | RWA's on Bitcoin",
     description:
-      "Rexuz is a platform that brings Real World Assets to Bitcoin.",
+      "Rexuz is a platform that brings Real World Assets to Bitcoin, making it easy for businesses to turn physical assets into digital tokens. With secure management, automated processes, and Bitcoin’s transparent infrastructure, Rexuz helps partners issue, track, and manage their assets effortlessly.",
     url: "https://rexuz.com",
     type: "website",
+    locale: "en_US",
     images: [
       {
-        url: "https://www.rexuz.com/_next/image?url=%2Fimages%2Fchallenge-2.png&w=1920&q=75",
+        url: "/images/challenge-1.png",
         width: 1920,
         height: 1080,
         alt: "Rexuz Challenge",
