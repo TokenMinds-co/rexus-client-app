@@ -7,6 +7,7 @@ import BgOverlayBottom from "@/components/BgOverlayBottom";
 import Baal from "@/components/views/baal";
 import Jumbotron from "@/components/views/jumbotron";
 import Team from "@/components/views/team";
+import EdgeSection from "@/components/views/EdgeSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <BgOverlayBottom />
       </div>
       <DiversifySection />
+      <EdgeSection />
       <Baal />
       <Team />
       <Footer />
