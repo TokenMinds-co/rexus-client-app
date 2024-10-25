@@ -17,7 +17,7 @@ const Baal = () => {
         </h3>
 
         <h3 className="flex space-x-2 font-semibold font-plus-jakarta-sans text-5xl text-white text-center">
-          First RWA On Rexuz
+          First RWA On Rexus
         </h3>
 
         <div className="w-full h-full grid grid-cols-1 lg:grid-cols-2 gap-10">
