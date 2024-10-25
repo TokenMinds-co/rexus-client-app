@@ -9,6 +9,7 @@ import Jumbotron from "@/components/views/jumbotron";
 import Team from "@/components/views/team";
 import EdgeSection from "@/components/views/EdgeSection";
 import MailingSection from "@/components/views/MailingSection";
+import RoadmapSection from "@/components/views/RoadmapSection";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <DiversifySection />
       <EdgeSection />
       <Baal />
+      <RoadmapSection />
       <Team />
       <MailingSection />
       <Footer />

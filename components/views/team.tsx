@@ -2,7 +2,7 @@ import React from "react";
 
 const Team = () => {
   return (
-    <section className="w-full h-full container mx-auto py-20 px-10" id="team">
+    <section className="w-full h-full container mx-auto pb-0 sm:pb-32 pt-32 px-10" id="team">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-full h-full">
         <div className="flex flex-col space-y-3 w-full h-fit items-start justify-start lg:items-center lg:justify-center p-5">
           <p className="text-6xl text-white font-semibold">Team</p>
