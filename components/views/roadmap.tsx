@@ -46,7 +46,7 @@ export default function Roadmap() {
       className="container relative mx-auto w-full h-full min-h-screen py-40 overflow-hidden px-10"
       id="roadmap"
     >
-      <h1 className="text-white text-6xl text-center">
+      <h1 className="text-white text-6xl text-center" data-aos="fade-down">
         <i className="text-primary pr-1">REXUS</i> Roadmap
       </h1>
 
@@ -56,6 +56,7 @@ export default function Roadmap() {
           <div
             key={index}
             className="relative w-5 h-5 rounded-full border-2 border-primary bg-primary"
+            data-aos="fade-down"
             style={{
               top: `calc(${(index / roadmapStep.length) * 100}%)`,
             }}
@@ -80,6 +81,7 @@ export default function Roadmap() {
           <div
             key={index}
             className="relative w-5 h-5 rounded-full border-2 border-primary bg-primary"
+            data-aos="fade-down"
             style={{
               top: `calc(${(index / roadmapStep.length) * 100}%)`,
             }}

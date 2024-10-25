@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Orbitron, Inter } from "next/font/google";
 import "./globals.css";
+import { AOSInit } from "@/components/layouts/aosinit";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta-sans",
@@ -93,6 +94,7 @@ export default function RootLayout({
       <body
         className={`${plusJakartaSans.variable} ${orbitron.variable} ${inter.variable} antialiased bg-darkbg`}
       >
+        <AOSInit />
         {children}
       </body>
     </html>

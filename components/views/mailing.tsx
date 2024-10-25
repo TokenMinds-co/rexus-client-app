@@ -8,7 +8,10 @@ export default function Mailing() {
       id="contact"
     >
       <div className="py-12 px-5 sm:px-16 bg-mailing bg-cover bg-center font-plus-jakarta-sans rounded-3xl">
-        <div className="space-y-8 z-10 w-full lg:w-3/4 xl:w-2/3 2xl:w-1/3 pt-48 pb-12">
+        <div
+          className="space-y-8 z-10 w-full lg:w-3/4 xl:w-2/3 2xl:w-1/3 pt-48 pb-12"
+          data-aos="fade-down"
+        >
           <h1 className="text-white text-5xl lg:text-6xl font-medium text-left ">
             Stay Updated
           </h1>

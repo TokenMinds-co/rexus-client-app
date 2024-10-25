@@ -16,7 +16,7 @@ export default function Diversify() {
 
         <div className="p-8 lg:p-16">
           {/* TYPOGRAPHY */}
-          <div className="space-y-5 text-center">
+          <div className="space-y-5 text-center" data-aos="fade-down">
             <h1 className="text-4xl md:text-5xl lg:text-6xl">
               Diversify Your <i className="pr-2">Bitcoin</i> Holdings
             </h1>

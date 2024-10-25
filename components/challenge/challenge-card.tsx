@@ -13,7 +13,10 @@ export default function ChallengeCard({
   imageUrl,
 }: ChallengeCardProps) {
   return (
-    <div className="flex flex-col rounded-xl overflow-hidden border-gray-600/25 border-[1px] bg-[#18181B]/50">
+    <div
+      className="flex flex-col rounded-xl overflow-hidden border-gray-600/25 border-[1px] bg-[#18181B]/50"
+      data-aos="fade-down"
+    >
       <Image
         alt="bitcoin-challenge-1"
         height={1250}
