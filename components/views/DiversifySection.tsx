@@ -21,7 +21,7 @@ export default function DiversifySection() {
               Diversify Your <i className="pr-2">Bitcoin</i> Holdings
             </h1>
             <h4 className="text-md md:text-lg lg:text-xl">
-              Rexuz offers TradFi players the tools to diversify Bitcoin
+              Rexus offers TradFi players the tools to diversify Bitcoin
               holdings
             </h4>
           </div>

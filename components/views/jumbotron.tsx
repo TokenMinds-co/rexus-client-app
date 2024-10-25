@@ -9,7 +9,7 @@ export default function Jumbotron() {
     >
       <div className="flex flex-col space-y-6 lg:space-y-10 w-full container mx-auto h-full min-h-screen items-start justify-start pt-32 p-5">
         <h3 className="text-5xl md:text-7xl lg:text-8xl font-orbitron tracking-widest font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text">
-          Rexuz
+          Rexus
         </h3>
         <div className="flex flex-col space-y-4">
           <h5 className="text-3xl md:text-4xl lg:text-5xl text-white/70 font-medium font-plus-jakarta-sans">

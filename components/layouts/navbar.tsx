@@ -52,7 +52,7 @@ const Navbar = () => {
             passHref
             className="text-xl lg:text-3xl font-orbitron font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text"
           >
-            Rexuz
+            Rexus
           </Link>
 
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -63,7 +63,7 @@ const Navbar = () => {
                 size={30}
               />
             </SheetTrigger>
-            <SheetTitle className="hidden">Rexuz</SheetTitle>
+            <SheetTitle className="hidden">Rexus</SheetTitle>
             <SheetContent
               side="right"
               className="flex flex-col items-start space-y-4 bg-darkbg text-white"
@@ -74,7 +74,7 @@ const Navbar = () => {
                   passHref
                   className="text-3xl font-orbitron font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text"
                 >
-                  Rexuz
+                  Rexus
                 </Link>
 
                 {navigations.map((item, index) => (
