@@ -72,6 +72,7 @@ const config: Config = {
         gold: "url('/backgrounds/gold.png')",
         wave: "url('/backgrounds/wave.png')",
         line: "url('/backgrounds/line-wavy.png')",
+        mailing: "url('/backgrounds/mailing-bg.png')",
       },
     },
   },

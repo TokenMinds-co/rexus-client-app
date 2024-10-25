@@ -8,6 +8,7 @@ import Baal from "@/components/views/baal";
 import Jumbotron from "@/components/views/jumbotron";
 import Team from "@/components/views/team";
 import EdgeSection from "@/components/views/EdgeSection";
+import MailingSection from "@/components/views/MailingSection";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <EdgeSection />
       <Baal />
       <Team />
+      <MailingSection />
       <Footer />
     </main>
   );
