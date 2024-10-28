@@ -83,10 +83,10 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/images/challenge-1.png",
+        url: "/images/btc-diversify.png",
         width: 1920,
         height: 1080,
-        alt: "Rexus Challenge",
+        alt: "Rexus BTC",
       },
     ],
   },
