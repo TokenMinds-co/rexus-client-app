@@ -16,7 +16,7 @@ export default function RoadmapCard({
 }: RoadmapCardProps) {
   return (
     <div
-      className={`absolute rounded-lg bg-gray-500/30 text-white p-8 bottom-[-75px] z-20 lg:w-[400px] xl:w-[500px] ${
+      className={`absolute rounded-3xl bg-gradient-to-r from-white/10 text-white p-8 bottom-[-75px] z-20 lg:w-[400px] xl:w-[500px] ${
         step % 2 === 0 ? "left-[100px]" : "right-[100px]"
       }`}
     >
@@ -28,7 +28,7 @@ export default function RoadmapCard({
           alt="diversify-item-icons"
         />
       </div>
-      <div className="text-2xl text-primary my-2">{title}</div>
+      <div className="text-2xl text-primary font-semibold my-2">{title}</div>
       {content}
     </div>
   );

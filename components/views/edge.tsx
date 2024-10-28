@@ -9,9 +9,9 @@ export default function Edge() {
       id="whyus"
     >
       <div className="flex flex-col justify-between items-center lg:items-start">
-        <h1 className="text-white text-center lg:text-left font-plus-jakarta-sans text-5xl lg:text-6xl leading-[60px] lg:leading-[75px] w-4/5">
+        <h1 className="text-white text-center lg:text-left font-plus-jakarta-sans font-semibold text-5xl lg:text-6xl leading-[60px] lg:leading-[75px] w-4/5">
           The Edge That Powers{" "}
-          <span className="font-semibold text-primary">Rexus</span>
+          <span className="text-primary uppercase italic font-bold">Rexus</span>
         </h1>
         <Image
           alt="edge-image"

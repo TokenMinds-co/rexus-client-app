@@ -14,6 +14,7 @@ const config: Config = {
         "plus-jakarta-sans": "var(--font-plus-jakarta-sans)",
         orbitron: "var(--font-orbitron)",
         inter: "var(--font-inter)",
+        michroma: "var(--font-michroma)",
       },
       colors: {
         background: "hsl(var(--background))",

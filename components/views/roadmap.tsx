@@ -10,7 +10,7 @@ export default function Roadmap() {
       iconUrl: "/icons/roadmap-item-1.svg",
       title: "Phase 1",
       content: (
-        <ul className="list-disc ml-5 text-white/75 font-light text-sm sm:text-base">
+        <ul className="list-disc ml-5 text-whiteoff font-light text-sm sm:text-base">
           <li>Launch RWA platform on Bitcoin</li>
           <li>Complete legal setup</li>
           <li>Introduce first token: BAAL</li>
@@ -23,7 +23,7 @@ export default function Roadmap() {
       iconUrl: "/icons/roadmap-item-2.svg",
       title: "Phase 2",
       content: (
-        <ul className="list-disc ml-5 text-white/75 font-light text-sm sm:text-base">
+        <ul className="list-disc ml-5 text-whiteoff font-light text-sm sm:text-base">
           <li>Launch more asset-backed tokens</li>
           <li>Introduce institutional, permissioned product</li>
           <li>Expand marketing to traditional investors</li>
@@ -35,7 +35,7 @@ export default function Roadmap() {
       iconUrl: "/icons/roadmap-item-3.svg",
       title: "Phase 3",
       content: (
-        <ul className="list-disc ml-5 text-white/75 font-light text-sm sm:text-base">
+        <ul className="list-disc ml-5 text-whiteoff font-light text-sm sm:text-base">
           <li>Expand to additional Layer 1 blockchains</li>
           <li>Add permissioned assets to the platform</li>
         </ul>
@@ -48,12 +48,16 @@ export default function Roadmap() {
       className="container relative mx-auto w-full h-full min-h-screen py-40 overflow-hidden px-10"
       id="roadmap"
     >
-      <h1 className="text-white text-6xl text-center" data-aos="fade-down">
-        <i className="text-primary pr-1">REXUS</i> Roadmap
+      <h1
+        className="text-white text-6xl text-center font-plus-jakarta-sans font-semibold"
+        data-aos="fade-down"
+      >
+        <span className="text-primary italic font-bold pr-1">REXUS</span>{" "}
+        Roadmap
       </h1>
 
       {/* BIG SCREEN ROADMAP */}
-      <div className="hidden lg:flex font-plus-jakarta-sans  flex-col justify-center items-center mt-64 gap-[225px]">
+      <div className="hidden lg:flex font-plus-jakarta-sans flex-col justify-center items-center mt-64 gap-[225px]">
         {roadmapStep.map((roadmap, index) => (
           <div
             key={index}

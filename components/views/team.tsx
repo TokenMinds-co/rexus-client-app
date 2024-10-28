@@ -1,4 +1,6 @@
+import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import React from "react";
+import Link from "next/link";
 
 const Team = () => {
   return (
@@ -17,6 +19,15 @@ const Team = () => {
           <p className="text-white/70 font-inter text-base pt-3">
             Tech entrepreneur experienced in blockchain and TradFi integration.
           </p>
+          <div className="flex flex-row space-x-5 pt-5">
+            <Link
+              href="https://www.linkedin.com/in/karim-salha-69b30047/"
+              passHref
+              target="_blank"
+            >
+              <FaLinkedinIn className="text-3xl text-black bg-primary p-1 rounded-md" />
+            </Link>
+          </div>
         </div>
         <div className="flex flex-col h-fit items-start justify-start p-5">
           <h3 className="text-start text-3xl text-primary">TokenMinds</h3>
@@ -27,6 +38,18 @@ const Team = () => {
             Leading Web3 consulting firm specializing in blockchain development
             and token sales.
           </p>
+          <div className="flex flex-row space-x-5 pt-5">
+            <Link
+              href="https://www.linkedin.com/company/tokenmindsofficial/posts/?feedView=all"
+              passHref
+              target="_blank"
+            >
+              <FaLinkedinIn className="text-3xl text-black bg-primary p-1 rounded-md" />
+            </Link>
+            <Link href="https://x.com/tokenminds_co" passHref target="_blank">
+              <FaXTwitter className="text-3xl text-black bg-primary p-1 rounded-md" />
+            </Link>
+          </div>
         </div>
       </div>
     </section>
