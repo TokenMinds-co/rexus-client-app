@@ -11,7 +11,7 @@ export default function RoadmapCardSmall({
 }: RoadmapCardSmallProps) {
   return (
     <div
-      className={`absolute rounded-lg bg-gray-500/30 text-white p-8 bottom-[-75px] z-20 w-[300px] sm:w-[500px] left-[50px] sm:left-[50px]}`}
+      className={`rounded-lg w-full max-w-xs bg-gray-500/30 text-white p-8 z-20`}
     >
       <div className="text-xl sm:text-2xl text-primary my-2">{title}</div>
       {content}

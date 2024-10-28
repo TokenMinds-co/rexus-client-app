@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Diversify() {
   return (
-    <section className="container px-5 mx-auto min-h-screen w-full h-full pt-40 pb-16 font-[500]">
+    <section className="container px-5 mx-auto min-h-screen w-full h-full pt-40 pb-16 font-[500] overflow-x-hidden">
       <div className="relative text-white font-plus-jakarta-sans">
         <Image
           alt="bg-gradient"

@@ -49,7 +49,7 @@ export default function Roadmap() {
       id="roadmap"
     >
       <h1
-        className="text-white text-6xl text-center font-plus-jakarta-sans font-semibold"
+        className="text-white text-4xl lg:text-6xl text-center font-plus-jakarta-sans font-semibold"
         data-aos="fade-down"
       >
         <span className="text-primary italic font-bold pr-1">REXUS</span>{" "}
@@ -74,20 +74,9 @@ export default function Roadmap() {
       </div>
 
       {/* SMALL SCREEN ROADMAP */}
-      <div className="lg:hidden relative font-plus-jakarta-sans flex flex-col  mt-60 gap-[225px]">
+      <div className="lg:hidden relative font-plus-jakarta-sans flex flex-col space-y-10 items-center justify-center mt-10">
         {roadmapStep.map((roadmap, index) => (
-          <div
-            key={index}
-            className="relative w-5 h-5 rounded-full border-2 border-primary bg-primary"
-            data-aos="fade-down"
-            style={{
-              top: `calc(${(index / roadmapStep.length) * 100}%)`,
-            }}
-          >
-            <div className="absolute bg-primary w-[4px] h-[250px] left-[6px]" />
-
-            <RoadmapCardSmall {...roadmap} />
-          </div>
+          <RoadmapCardSmall key={index} {...roadmap} />
         ))}
       </div>
 
