@@ -16,13 +16,13 @@ export default function Challenge() {
         <ChallengeCard
           title="Lack of Diversification"
           description="Bitcoin is lack of diversification"
-          imageUrl="/images/challenge-1.png"
+          imageUrl="/images/btc-diversify.png"
         />
 
         <ChallengeCard
           title="High Volatility"
           description="Bitcoin holders face significant price fluctuations"
-          imageUrl="/images/challenge-2.png"
+          imageUrl="/images/btc-chart.png"
         />
       </div>
     </section>

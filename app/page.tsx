@@ -23,7 +23,9 @@ export default function Home() {
       </div>
       <Diversify />
       <Edge />
-      <Baal />
+      <div className="w-full bg-gold relative rounded-[40px] lg:rounded-[80px] bg-top bg-cover">
+        <Baal />
+      </div>
       <Roadmap />
       <Team />
       <Mailing />

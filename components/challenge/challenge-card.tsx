@@ -1,16 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 
 interface ChallengeCardProps {
   title: string;
   description: string;
   imageUrl: string;
+  className?: string;
 }
 
 export default function ChallengeCard({
   title,
   description,
   imageUrl,
+  className,
 }: ChallengeCardProps) {
   return (
     <div
@@ -22,11 +25,13 @@ export default function ChallengeCard({
         height={1250}
         width={1250}
         src={imageUrl}
-        className="object-cover w-full h-full"
+        className={cn("object-cover w-full h-full bg-black", className)}
       />
       <div className="p-8 space-y-2">
-        <h3 className="text-white font-plus-jakarta-sans text-3xl">{title}</h3>
-        <h4 className="text-[#A1A1AA] font-inter font-light text-xl">
+        <h3 className="text-semiwhite font-plus-jakarta-sans text-3xl">
+          {title}
+        </h3>
+        <h4 className="text-whiteoff font-inter font-light text-xl">
           {description}
         </h4>
       </div>

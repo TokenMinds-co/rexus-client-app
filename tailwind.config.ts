@@ -26,6 +26,10 @@ const config: Config = {
         beige: "#FFE5A8",
         vibrant: "#8D11EE",
         violet: "#5A0E97",
+        lime: "#B9FF49",
+        silent: "#282828",
+        semiwhite: "#E4E4E7",
+        whiteoff: "#A1A1AA",
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
