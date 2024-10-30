@@ -13,19 +13,19 @@ export default function Mailing() {
     e.preventDefault();
     try {
       setIsSubmitting(true);
-      // const email = (e.target as HTMLFormElement).email.value;
-      // await fetch("/api/mailerlite", {
-      //   method: "POST",
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //   },
-      //   body: JSON.stringify({ email }),
-      // });
+      const email = (e.target as HTMLFormElement).email.value;
+      await fetch("/api/mailerlite", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
       toast("Successfully added to the list", {
         description: "Thank you for subscribing to our newsletter",
       });
 
-      // (e.target as HTMLFormElement).reset();
+      (e.target as HTMLFormElement).reset();
     } catch (error) {
       console.error(error);
     } finally {
