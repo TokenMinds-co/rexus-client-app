@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Orbitron, Inter, Michroma } from "next/font/google";
 import "./globals.css";
 import { AOSInit } from "@/components/layouts/aosinit";
+import { Toaster } from "@/components/ui/sonner";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta-sans",
@@ -104,6 +105,7 @@ export default function RootLayout({
       >
         <AOSInit />
         {children}
+        <Toaster />
       </body>
     </html>
   );
