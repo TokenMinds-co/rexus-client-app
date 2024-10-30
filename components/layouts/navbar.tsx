@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className="fixed container mx-auto top-0 flex py-5 px-5 w-full h-fit z-30">
         <div className="flex px-5 py-5 w-full h-full items-center justify-between bg-white/[8%] backdrop-blur-md border border-white/40 rounded-3xl">
           <Link
-            href="/"
+            href="/#home"
             passHref
             className="text-xl lg:text-3xl font-orbitron font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text"
           >
@@ -70,7 +70,7 @@ const Navbar = () => {
             >
               <nav className="flex flex-col space-y-4 mt-4">
                 <Link
-                  href="/"
+                  href="/#home"
                   passHref
                   className="text-3xl font-orbitron font-semibold uppercase bg-gradient-to-b from-white to-primary text-transparent bg-clip-text"
                 >

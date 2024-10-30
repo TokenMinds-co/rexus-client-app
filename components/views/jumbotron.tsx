@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function Jumbotron() {
   return (
@@ -23,9 +24,11 @@ export default function Jumbotron() {
           </h5>
         </div>
 
-        <Button className="bg-black/80 rounded-xl border border-white font-plus-jakarta-sans text-sm md:text-base text-white/70 px-6 py-5 md:px-8 md:py-6 hover:bg-black hover:border-primary duration-300">
-          Learn More
-        </Button>
+        <Link href="/#rexus">
+          <Button className="bg-black/80 rounded-xl border border-white font-plus-jakarta-sans text-sm md:text-base text-white/70 px-6 py-5 md:px-8 md:py-6 hover:bg-black hover:text-white hover:border-primary duration-300">
+            Learn More
+          </Button>
+        </Link>
       </div>
     </section>
   );

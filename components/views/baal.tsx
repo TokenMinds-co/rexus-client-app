@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
 
@@ -73,12 +74,14 @@ const Baal = () => {
         </div>
       </div>
 
-      <Button
-        className="bg-black/80 rounded-xl border border-white font-plus-jakarta-sans text-sm md:text-base text-white/70 px-6 py-5 md:px-8 md:py-6 hover:bg-black hover:border-primary duration-300"
-        data-aos="fade-down"
-      >
-        Learn More
-      </Button>
+      <Link href="https://baal.to" target="_blank" referrerPolicy="origin">
+        <Button
+          className="bg-black/80 rounded-xl border border-white font-plus-jakarta-sans text-sm md:text-base text-white/70 px-6 py-5 md:px-8 md:py-6 hover:bg-black hover:text-white hover:border-primary duration-300"
+          data-aos="fade-down"
+        >
+          Learn More
+        </Button>
+      </Link>
     </section>
   );
 };
