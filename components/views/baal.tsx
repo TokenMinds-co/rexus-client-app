@@ -41,7 +41,7 @@ const Baal = () => {
         >
           <p className="font-michroma font-semibold text-2xl md:text-4xl text-white py-10 leading-relaxed">
             Projected market size of{" "}
-            <span className="bg-black rounded-lg text-lime p-1.5 mr-1.5 whitespace-nowrap">
+            <span className="inline-block mb-2 bg-black rounded-lg text-lime p-1.5 mr-1.5 whitespace-nowrap my-2">
               {" "}
               $2.8 trillion{" "}
             </span>
@@ -54,7 +54,7 @@ const Baal = () => {
         >
           <p className="font-michroma font-semibold text-2xl md:text-4xl text-white py-10 leading-relaxed">
             Backed by the{" "}
-            <span className="bg-black rounded-lg text-lime p-1.5 mr-1.5 whitespace-nowrap">
+            <span className="inline-block mb-2 bg-black rounded-lg text-lime p-1.5 mr-1.5 whitespace-nowrap my-2">
               {" "}
               top 20{" "}
             </span>
