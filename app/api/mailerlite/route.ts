@@ -15,7 +15,6 @@ export async function POST(request: Request) {
       body: JSON.stringify(data),
     });
     const result = await response.json();
-    console.log("Result", result);
     return Response.json(result);
   } catch (error) {
     console.error(error);
