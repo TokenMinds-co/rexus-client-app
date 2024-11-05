@@ -67,9 +67,10 @@ const Baal = () => {
           className="lg:col-span-2 flex w-full h-full min-h-40 bg-silent rounded-3xl p-10 items-center justify-center border-2 border-white/20"
           data-aos="fade-down"
         >
-          <p className="font-michroma font-semibold text-2xl md:text-4xl text-white py-10 leading-relaxed">
-            Multi-currency stabilization methods for resilience against
-            inflation and economic shocks
+          <p className="font-michroma font-semibold text-2xl md:text-3xl text-white py-10 leading-loose">
+            Algorithmic Multi-Currency Stabilization Ensuring resilience against
+            inflation and economic shocks through algorithmically adjusted
+            stabilization methods
           </p>
         </div>
       </div>
